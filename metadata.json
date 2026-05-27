@@ -1,0 +1,6 @@
+{
+  "name": "Terraform Command Dashboard",
+  "description": "An industrial offline-first resource tracker and calculator for terraforming missions, featuring inventory management, generation-based production, global parameter progress, milestones, log files, and undo/redo states.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

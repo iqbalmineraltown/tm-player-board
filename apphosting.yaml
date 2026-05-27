@@ -1,0 +1,18 @@
+# apphosting.yaml
+# Firebase App Hosting Configuration File
+# Learn more: https://firebase.google.com/docs/app-hosting/configure
+
+# Settings for the runtime environment
+runConfig:
+  # The maximum number of concurrent requests per instance
+  concurrency: 80
+  # CPU and Memory configuration for the server container
+  cpu: 1
+  memoryMiB: 512
+  # Environment variables for execution time (if any are introduced later)
+  environmentVariables: []
+
+# Settings for the build process
+buildConfig:
+  # Standard Node.js runtime version
+  nodeVersion: "20"
